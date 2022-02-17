@@ -42,14 +42,18 @@ Components:
 
 Para você compreender como funciona o desafio, vamos fixar aqui como funciona nosso formato pardrão. Assim, você poderá ter certeza do que você irá encontrar em cada desafio e também onde encontrar os recursos que você precisa.
 
-1. Os desafios estão em pastas numeradas e ordenados por ordem crescente de dificuldade e quantidade de tecnologias utilizadas. 
+1. Os desafios estão em pastas de acordo com as tecnologias utilizadas. 
 
-O formato padrão para os nomes é:
+No diretório principal você vai encontrar a tecnologia:
+- 📁 HTML
+- 📁 CSS
+- 📁 Javascript
+- 📁 ...
 
-- 📂 &lt;ID&gt;&#95;&lt;Tecnologia&gt;&#95;&lt;NomeDoDesafio&gt;
-  
-  Por exemplo:
-  📂 1_HTML_criando_uma_rede_social
+Dentro de cada um você encontra desafios:
+
+Por exemplo:
+  - 📂 criando_uma_rede_social
 
 2. Os desafios possuem um briefing detalhado, ou seja, uma explicação que mostra exatamente o que precisa ser feito em cada desafio. Essa explicação inclui fotos, trechos de código, exemplos de input e output dentre outras explicações importantes para que todos consigam entender e executar o desafio.
 3. Os desafios podem conter restrições rígidas para que você possa praticar algum conceito ou tecnologia. Por exemplo, podemos fazer o posicionamento de imagens usando flexbox, porém, também é possível fazer o mesmo usando outras formas de posicionamento, assim, quando existe uma restrição busque obedecer 100% dessa restrição para que o exercícío seja feito da maneira correta.
