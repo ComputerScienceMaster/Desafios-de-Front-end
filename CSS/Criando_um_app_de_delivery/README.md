@@ -100,7 +100,7 @@ As imagens estão guardadas na pasta "resources" desse desafio.
 
 ---
 
-## 🍖 Fase 2: aplicando o CSS!
+## 🍖 Fase 02: aplicando o CSS!
 
 Agora que tudo fica mais bonito! vamos adicionar um pouco de 🎨 arte aos nossos trabalhos. Usando o CSS você deverá posicionar os elementos corretamente, trabalhar com as fontes, adicionar imagens ou texturas, adicionar um pouco de movimento aos elementos, e muito mais!
 
