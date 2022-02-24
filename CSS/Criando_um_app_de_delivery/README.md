@@ -1,16 +1,20 @@
-# # 💻 Aplicativo de Delivery
+# 💻 Aplicativo de Delivery
 
 👋 Olá masters! Bem-vindos ao desafio de Front-end!
 
-Hoje vamos continuar nossa jornada pelo mundo do front-end e vamos explorar um pouco sobre o CSS. Aqui meu objetivo é desafiar vocês a criar o "MyFood" 😆 um app de delivery que começou sua jornada agora!
-
-# 👊 Vamos ao desafio!
+Hoje vamos continuar nossa jornada pelo mundo do front-end e vamos explorar um pouco sobre o CSS. Aqui meu objetivo é desafiar vocês a criar o "MyFood" 😆 um app de delivery que começou sua jornada agora e precisa de uma boa interface para cativar seus usuários.
 
 Nosso objetivo nesse desafio é criar uma interface funcional para nosso cliente, ou seja, essa interface deverá ter todos seus elementos posicionados, alinhados e também formatados de uma forma atraente e que todos possam facilmente navegar pelo site e escolher o que deseja comer.
 
-Bom, em primeiro lugar nós vamos definir o que nossa rede social vai ter:
+## 👊 Vamos ao desafio!
 
-- 📄 No seu cabeçalho
+### 🦴 Fase 01 - HTML
+
+Para a primeira fase vamos criar apenas o "esqueleto" da nossa rede, ou seja, vamos definir nosso HTML. A seguir você vai encontrar todos os conjuntos de dados que você precisará inserir no HTML para completar esse desafio.
+
+Então vamos lá! 
+
+#### 📄 1) No seu cabeçalho
 
 1. Um nome! O nome pode ficar por sua conta, mas nosso exemplo é o MyFood
 2. Menus de navegação (Restaurantes, Mercado, Farmácia, Bebidas, Pets)
@@ -19,85 +23,157 @@ Bom, em primeiro lugar nós vamos definir o que nossa rede social vai ter:
 
 Veja nossa sugestão:
 ---
-
+![Cabeçalho](https://user-images.githubusercontent.com/13739735/155576878-28c26687-47ef-4b87-a34b-aed1b09611ea.png)
 ---
-- 📄 No menu de navegação
-1. Um menu em fomato de lista com os seguintes links "Página inicial", "Explorar", "Mensagens", "Perfil", "Mais".
-2. Um botão de "criar nova publicação"
-3. O nome do usuário e o seu @
+
+#### 📄 2) Na seção de branding
+1. O nome do aplicativo
+2. O slogan adotado pela marca
+
 
 Veja nossa sugestão:
 ---
-![MenuDeNavegacao](https://user-images.githubusercontent.com/13739735/154480013-2f513a8a-b2db-4e97-81e2-d26b22f2296a.png)
+![Banner](https://user-images.githubusercontent.com/13739735/155576962-82a1a21e-b65c-478e-bf8d-7658ccb2bd69.png)
 --- 
 
-- 📄 Na seção de publicação:
+#### 📄 3) No menu de navegação:
 
-1. Uma mensagem de boas vindas
-2. Um título dizendo "página inicial"
-3. Uma foto de perfil
-4. Um campo de texto para digitarmos nossa publicação
-5. Vários botões de radio permitindo selecionar tipos de publicação diferentes (imagem, vídeo, gif, mood, localização)
-6. Um botão de publicar agora!
+1. O título dizendo quais são os "filtros" disponíveis (no nosso caso são as categorias)
+2. Uma lista de categorias com foto e o nome da categoria
 
 
 Veja nossa sugestão:
 ---
-![publicacao](https://user-images.githubusercontent.com/13739735/154480597-572e88b6-241e-4a99-a8b5-eb95ccf47142.png)
+![Categorias](https://user-images.githubusercontent.com/13739735/155578063-070c32b9-6696-4dc1-8bd8-b2ca0c8f6635.png)
 --- 
 
-- 📄 Na seção de feed:
+#### 📄 4) Na seção de destaques:
 
-Alguns posts de diferentes tipos (texto, imagem e mapa)
-
-1. Para posts de texto:
-  1. Uma foto de perfil
-  2. um campo que pode informar se o usuário está respondendo um outro post
-  3. Um texto qualquer (pode ser lorem ipsum).
-  4. Botões de Like, Comment e Share
-  5. Linhas horizontais para separar cada post
+1. Alguns restaurantes que estão em destaque no App
 
 Veja nossa sugestão:
 ---
-![postTexto](https://user-images.githubusercontent.com/13739735/154481103-f0e0400f-f05e-4231-a436-7a3a8fe9d640.png)
+![Mais populares](https://user-images.githubusercontent.com/13739735/155578382-2c38850c-ce1b-438d-913b-c63a9943b46f.png)
 ---
 
-2. Para posts com foto:
-  1. Uma foto de perfil
-  2. Um campo informando o usuário que acaba de postar
-  3. A foto
-  4. Um texto descritivo
-  5. Botões de like, comment e share 
+
+#### 📄 5) Na seção dos restaurantes:
+
+1. Vários cards contendo uma imagem (padrão) e as informações do restaurante.
 
 Veja nossa sugestão:
 ---
-![postComFoto](https://user-images.githubusercontent.com/13739735/154481844-5103554e-a25e-4f5c-a1b2-8d1be3d468be.png)
+![Restaurantes](https://user-images.githubusercontent.com/13739735/155578641-8d2f14a1-33a4-4c93-8a0b-524b99f6e71c.png)
 ---
 
-3. Para posts com localização
-  1. Uma foto de perfil
-  2. Um campo informando o usuário que acaba de postar
-  3. A Localização (pode ser obtida no campo "compartilhar" do google maps quando você digita qualquer endereço).
-  4. Um texto descritivo
-  5. Botões de like, comment e share 
+#### 📄 6) Informações no fim do site:
 
+1. Mostrar uma lista de cidades que o app está disponível
 
 Veja nossa sugestão:
 ---
-![postComLocalização](https://user-images.githubusercontent.com/13739735/154481981-19b044e9-6b4b-41d1-a9f2-fc70f05eaf1c.png)
+![Cidades](https://user-images.githubusercontent.com/13739735/155578820-88ed42b6-020e-4c9e-8030-8f317e4669dc.png)
 ---
 
-# ✨ Resultado final
 
-Como output (resultado final), veja aqui veja um snapshot de como o site deverá ficar:
-![snapshot_desafio_1](https://user-images.githubusercontent.com/13739735/154482433-f720e367-d271-4c44-a791-c8b6cf8154af.png)
+#### 📄 7) Rodapé do site:
 
-Quer ver no seu navegador?
-[Clique aqui](https://computersciencemaster.com.br/desafios/front-end/1/)
+1. Mostrar as redes sociais da empresa
+2. Mostrar links úteis e informativos ( termos, privacidade, etc.)
+3. Uma faixa mostrando "Todos os direitos reservados ao MyFood"
+
+Veja nossa sugestão:
+---
+![Rodape](https://user-images.githubusercontent.com/13739735/155578899-c5b3693d-ffda-47f2-81c8-4709d9a2b1e9.png)
+---
+
+### ✨ Resultado parcial
+
+Como output, veja aqui veja um snapshot de como o site deverá ficar:
+![onlyHTML](https://user-images.githubusercontent.com/13739735/155579227-ee209e38-08b4-4ddd-be1e-521c509520d2.png)
 
 
-# 💼 Recursos usados
+### 💼 Recursos usados
 
-Para criar esse projeto utilizei apenas um recurso externo que são as imagens do site, ou seja, o restante foi puramente feito apenas com HTML. 
+Para essa fase do projeto utilizei apenas um recurso externo que são as imagens do site, ou seja, o restante foi puramente feito apenas com HTML. 
 As imagens estão guardadas na pasta "resources" desse desafio.
 
+---
+
+## 🍖 Fase 2: aplicando o CSS!
+
+Agora que tudo fica mais bonito! vamos adicionar um pouco de 🎨 arte aos nossos trabalhos. Usando o CSS você deverá posicionar os elementos corretamente, trabalhar com as fontes, adicionar imagens ou texturas, adicionar um pouco de movimento aos elementos, e muito mais!
+
+A seguir vamos detalhar como você deve deixar cada seção do website:
+
+
+#### 📄 1) No seu cabeçalho
+
+1. Posicione a imagem (myfood) no lado esquerdo da barra superior com um tamanho de 200
+2. Formate os links de navegação (restaurantes, mercado, farmácia, etc.)
+3. Formate a informação do endereço do cliente
+4. Crie botões legais que combinem com seu design. Uma dica é usar [esse site](https://www.bestcssbuttongenerator.com/)
+
+Veja nossa sugestão:
+---
+
+---
+
+#### 📄 2) Na seção de branding
+1. xxxx
+2. xxxx
+
+
+Veja nossa sugestão:
+---
+
+--- 
+
+#### 📄 3) No menu de navegação:
+
+1. xxxx
+2. xxxx
+
+
+Veja nossa sugestão:
+---
+
+--- 
+
+#### 📄 4) Na seção de destaques:
+
+1. xxxx
+
+Veja nossa sugestão:
+---
+
+---
+
+
+#### 📄 5) Na seção dos restaurantes:
+
+1. xxxx
+
+Veja nossa sugestão:
+---
+
+---
+
+#### 📄 6) Informações no fim do site:
+
+1. xxxx
+
+Veja nossa sugestão:
+---
+
+---
+
+
+#### 📄 7) Rodapé do site:
+
+1. xxxx
+
+Veja nossa sugestão:
+---
+
+---
