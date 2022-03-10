@@ -1,3 +1,4 @@
+/* reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +6,61 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.menu_navegacao{
+/*cabeçalho*/
+.cabecalho {
     display: flex;
-    background-color: black;
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03071e;
 }
 
-.menu_navegacao li{
+.cabecalho img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.menu_navegacao {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_navegacao li {
+    align-items: center;
+    margin: 10px;
+    color: #ffba08;
+}
+
+.menu_navegacao li:hover {
+        color: white;
+        cursor: pointer;
+}
+
+.endereco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endereco p, i {
     color: white;
+    margin: 5px;
+}
+
+.acoes_menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.acoes_menu button {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d00000;
+    color: white;
+}
+
+.acoes_menu button:hover{
+    cursor: pointer;
 }
