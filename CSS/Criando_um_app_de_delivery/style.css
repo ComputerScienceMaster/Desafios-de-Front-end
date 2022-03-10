@@ -19,6 +19,8 @@
     height: 80px;
     margin: 20px;
     margin-left: 100px;
+    box-shadow: 5px 5px 0px 0px #370617;
+    border-radius: 100%;
 }
 
 .menu_navegacao {
@@ -57,12 +59,14 @@
 .acoes_menu button {
     margin-right: 20px;
     padding: 10px;
-    border-radius: 10px;
-    background-color: #d00000;
+    border-radius: 28px;
     color: #ffba08;
-    border: 1px solid #ffba08;
+    border: 1px solid #6a040e;
+    background: linear-gradient(to bottom, #d00000 5%, #6a040e 100%);
+    box-shadow: 5px 5px 0px 0px #370617;
 }
 
 .acoes_menu button:hover {
     cursor: pointer;
+    background: linear-gradient(to bottom, #6a040e 5%, #d00000 100%);
 }
