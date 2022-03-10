@@ -53,7 +53,7 @@
 .acoes_menu {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
 }
 
 .acoes_menu button {
@@ -70,3 +70,34 @@
     cursor: pointer;
     background: linear-gradient(to bottom, #6a040e 5%, #d00000 100%);
 }
+
+.merchant {
+    background-color: #6a040e;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+h1 {
+    color:#ffba08; 
+    text-align: right;
+    padding: 20px;
+    font-size: 80px;
+    margin-right: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: right;
+    padding: 20px;
+    margin-right: 30px;
+   
+}
+
+nav li{
+    display: flex;
+    list-style-type: none;
+}
+
+
