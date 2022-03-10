@@ -116,6 +116,7 @@ A seguir vamos detalhar como você deve deixar cada seção do website:
 
 Veja nossa sugestão:
 ---
+![cabeçalho](https://user-images.githubusercontent.com/13739735/157752175-b42d652d-6d2b-4d42-920c-533e8f636d00.jpeg)
 
 ---
 
