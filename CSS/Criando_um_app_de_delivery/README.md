@@ -109,7 +109,7 @@ A seguir vamos detalhar como você deve deixar cada seção do website:
 
 #### 📄 1) No seu cabeçalho
 
-1. Posicione a imagem (myfood) no lado esquerdo da barra superior com um tamanho de 200
+1. Posicione a imagem (MyFood) no lado esquerdo da barra superior
 2. Formate os links de navegação (restaurantes, mercado, farmácia, etc.)
 3. Formate a informação do endereço do cliente
 4. Crie botões legais que combinem com seu design. Uma dica é usar [esse site](https://www.bestcssbuttongenerator.com/)
