@@ -121,24 +121,23 @@ Veja nossa sugestão:
 ---
 
 #### 📄 2) Na seção de branding
-1. xxxx
-2. xxxx
-
+1. A marca
+2. O slogan
+3. Controlar o fundo e cores das fontes
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/158888360-dd33c77b-8698-4d14-819b-eb52fceb3e93.png)
 --- 
 
 #### 📄 3) No menu de navegação:
 
-1. xxxx
-2. xxxx
-
+1. Cada uma das categorias com seus respectivos logos e nomes
+2. o posicionamento de cada item precisa ser um "em baixo" do outro
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/158889376-0a2f20b2-2615-4283-a3ad-120c94991ce2.png)
 --- 
 
 #### 📄 4) Na seção de destaques:
