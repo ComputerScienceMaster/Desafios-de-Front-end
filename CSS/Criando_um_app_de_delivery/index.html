@@ -1,179 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MyFood</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>MyFood</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <!-- cabeçalho -->
+  <header class="cabecalho">
+    <img src="resources/logoMyFood.png" alt="Logotipo da Empresa" />
+    <ul class="menu_navegacao">
+      <li>Restaurantes</li>
+      <li>Mercado</li>
+      <li>Farmácia</li>
+      <li>Bebidas</li>
+      <li>Pets</li>
+    </ul>
 
-<!-- cabeçalho -->
-<header class="cabecalho">
-  <img src="resources/logoMyFood.png" alt="Logotipo da Empresa" />
-  <ul class="menu_navegacao">
-    <li>Restaurantes</li>
-    <li>Mercado</li>
-    <li>Farmácia</li>
-    <li>Bebidas</li>
-    <li>Pets</li>
-  </ul>
+    <div class="endereco">
+      <i class="fa-solid fa-location-dot"></i>
+      <p>Rua José da Silva, nº 230, Apto 24b</p>
+    </div>
 
-  <div class="endereco">
-    <i class="fa-solid fa-location-dot"></i>
-    <p>Rua José da Silva, nº 230, Apto 24b</p>
-  </div>
+    <ul class="acoes_menu">
+      <button>Fazer Login</button>
+      <button>Cadastre-se</button>
+    </ul>
+  </header>
 
-  <ul class="acoes_menu">
-    <button>Fazer Login</button>
-    <button>Cadastre-se</button>
-  </ul>
-</header>
-
-<body>
-  <!-- banner -->
-  <section class="merchant">
-    <h1>MyFood</h1>
-    <h2>Delivery inteligente - Fácil, rápido e barato!</h2>
-  </section>
-
-  <!-- categorias de comidas -->
-  <div class="background">
-    <section class="categorias">
-      <h3>Categorias</h3>
-      <ul>
-        <li><img width="100" src="resources/burger.png" /> Fast-food</li>
-        <li><img width="100" src="resources/cake.png" /> Doces e bolos</li>
-        <li><img width="100" src="resources/japanese.png" /> Japonesa</li>
-        <li><img width="100" src="resources/taco.png" /> Mexicana</li>
-        <li><img width="100" src="resources/bread.png" /> Padarias</li>
-        <li><img width="100" src="resources/salad.png" /> Saudável</li>
-        <li><img width="100" src="resources/coffee.png" /> Café</li>
-      </ul>
-    </section>
-    
-    <!--populares  -->
-    <section class="populares">
-      <h3>Os mais populares por aqui</h3>
-      <ul>
-        <li>
-          <img width="100" src="resources/Lanchonete do Batata.png" /> Lanchonete
-          do Batata
-        </li>
-        <li>
-          <img width="100" src="resources/cake.png" /> Confeitaria Sonho Doce
-        </li>
-        <li><img width="100" src="resources/yommi.png" /> Yommi Japanese Food</li>
-        <li><img width="100" src="resources/Todoloko.png" /> TodoLoko Mexican</li>
-        <li><img width="100" src="resources/cabrón.png" /> Cabrón bebidas</li>
-      </ul>
+  <body>
+    <!-- banner -->
+    <section class="merchant">
+      <h1>MyFood</h1>
+      <h2>Delivery inteligente - Fácil, rápido e barato!</h2>
     </section>
 
-    <!-- lojas -->
-    <section class="lojas">
+    <!-- categorias de comidas -->
+    <div class="background">
+      <section class="categorias">
+        <h3>Categorias</h3>
+        <ul>
+          <li><img width="100" src="resources/burger.png" /> Fast-food</li>
+          <li><img width="100" src="resources/cake.png" /> Doces e bolos</li>
+          <li><img width="100" src="resources/japanese.png" /> Japonesa</li>
+          <li><img width="100" src="resources/taco.png" /> Mexicana</li>
+          <li><img width="100" src="resources/bread.png" /> Padarias</li>
+          <li><img width="100" src="resources/salad.png" /> Saudável</li>
+          <li><img width="100" src="resources/coffee.png" /> Café</li>
+        </ul>
+      </section>
+
+      <!--populares  -->
+      <section class="populares">
+        <h3>Os mais populares por aqui</h3>
+        <ul>
+          <li>
+            <img width="100" src="resources/Lanchonete do Batata.png" />
+            Lanchonete do Batata
+          </li>
+          <li>
+            <img width="100" src="resources/cake.png" /> Confeitaria Sonho Doce
+          </li>
+          <li>
+            <img width="100" src="resources/yommi.png" /> Yommi Japanese Food
+          </li>
+          <li>
+            <img width="100" src="resources/Todoloko.png" /> TodoLoko Mexican
+          </li>
+          <li><img width="100" src="resources/cabrón.png" /> Cabrón bebidas</li>
+        </ul>
+      </section>
+
       <h3>Lojas</h3>
-      <div>
+      <!-- lojas -->
+      <section class="lojas">
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Mc Ronalds</h4>
-          <p>♥ 4.5 - Lanches - 4.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Mc Ronalds</h4>
+            <p>♥ 4.5 - Lanches - 4.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Robs</h4>
-          <p>♥ 4.1 - Lanches - 4.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Robs</h4>
+            <p>♥ 4.1 - Lanches - 4.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>John Kon</h4>
-          <p>♥ 4.5 - Japonês - 1.2 km</p>
-          <p>10-30 min • R$ 3,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>John Kon</h4>
+            <p>♥ 4.5 - Japonês - 1.2 km</p>
+            <p>10-30 min • R$ 3,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Lobbys</h4>
-          <p>♥ 4.1 - Padaria - 4.1 km</p>
-          <p>50-40 min • R$ 1,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Lobbys</h4>
+            <p>♥ 4.1 - Padaria - 4.1 km</p>
+            <p>50-40 min • R$ 1,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Alfa Made</h4>
-          <p>♥ 2.5 - Mexicana - 4.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Alfa Made</h4>
+            <p>♥ 2.5 - Mexicana - 4.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Blueberry</h4>
-          <p>♥ 2.5 - Café - 4.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Blueberry</h4>
+            <p>♥ 2.5 - Café - 4.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Master Fruit</h4>
-          <p>♥ 1.5 - Saudável - 4.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Master Fruit</h4>
+            <p>♥ 1.5 - Saudável - 4.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Sweet Honney</h4>
-          <p>♥ 3.1 - Doces e bolos - 3.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Sweet Honney</h4>
+            <p>♥ 3.1 - Doces e bolos - 3.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
         <div class="loja">
-          <img width="100" src="resources/meal.png" alt="">
-          <h4>Coffee2go</h4>
-          <p>♥ 2.5 - Café - 1.2 km</p>
-          <p>50-40 min • R$ 2,00</p>
+          <img width="100" src="resources/meal.png" alt="" />
+          <div>
+            <h4>Coffee2go</h4>
+            <p>♥ 2.5 - Café - 1.2 km</p>
+            <p>50-40 min • R$ 2,00</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- cidades -->
-    <section class="cidades">
       <h3>Busque as delícias das cidades mais próximas</h3>
-      <ul>
-        <li>Belo Horizonte</li>
-        <li>Brasília</li>
-        <li>Campinas</li>
-        <li>Curitiba</li>
-        <li>Goiânia</li>
-        <li>Guarulhos</li>
-        <li>João Pessoa</li>
-        <li>Natal</li>
-        <li>Niterói</li>
-        <li>Porto Alegre</li>
-        <li>Ribeirão Preto</li>
-        <li>Rio de Janeiro</li>
-        <li>Salvador</li>
-        <li>Santo André</li>
-        <li>Santos</li>
-        <li>São Bernardo do Campo</li>
-        <li>São Caetano do Sul</li>
-        <li>São Paulo</li>
-      </ul>
-    </section>
 
-  </div>
-</body>
+      <!-- cidades -->
+      <section class="cidades">
+        <ul>
+          <li>Belo Horizonte</li>
+          <li>Brasília</li>
+          <li>Campinas</li>
+          <li>Curitiba</li>
+          <li>Goiânia</li>
+          <li>Guarulhos</li>
+          <li>João Pessoa</li>
+          <li>Natal</li>
+          <li>Niterói</li>
+          <li>Porto Alegre</li>
+          <li>Ribeirão Preto</li>
+          <li>Rio de Janeiro</li>
+          <li>Salvador</li>
+          <li>Santo André</li>
+          <li>Santos</li>
+          <li>São Bernardo do Campo</li>
+          <li>São Caetano do Sul</li>
+          <li>São Paulo</li>
+        </ul>
+      </section>
+    </div>
+  </body>
 
-<footer>
-  <div>
-    <h4>Redes sociais do Myfood</h4>
-
+  <footer>
+    <h4 class="redesSociais">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-tiktok"></i>
+    </h4>
     <ul class="links">
       <li>Termos e condições de uso</li>
       <li>Código de conduta</li>
       <li>Privacidade</li>
       <li>Dicas de segurança</li>
     </ul>
-  </div>
-  <div>
-    Todos os direitos reservados ao MyFood
-  </div>
-</footer>
-
+    <div class="copyright">Todos os direitos reservados ao MyFood</div>
+  </footer>
 </html>

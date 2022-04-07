@@ -114,10 +114,18 @@ h3 {
     color: #ffba08;
     font-size: 30px;
     margin:20px;
+    padding:30px
 }
 
 .categorias ul{
     display: flex;
+    justify-content: space-around;
+}
+
+.categorias ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .categorias li {
@@ -128,11 +136,76 @@ h3 {
 
 
 /*populares*/
+
+.populares ul{
+    color: #ffba08;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.populares ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*lojas*/
+
+.lojas{
+    display: grid;
+    color: #efefef;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: left;
+    gap: 30px;
+}
+
+.loja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
 /*cidades*/
+
+.cidades ul{
+    color: #efefef;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: left;
+    padding: 50px;
+}
+
 
 
 /*rodapé*/
+
+h4{
+    color: #efefef;
+}
+
+.redesSociais{
+    color: #ffba08;
+    padding: 30px;
+}
+
 footer{
     background-color: #6a040e;
+    color: #efefef;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+    padding-bottom: 30px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
