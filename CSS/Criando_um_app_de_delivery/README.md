@@ -137,7 +137,7 @@ Veja nossa sugestão:
 
 Veja nossa sugestão:
 ---
-![image](https://user-images.githubusercontent.com/13739735/158889376-0a2f20b2-2615-4283-a3ad-120c94991ce2.png)
+![image](https://user-images.githubusercontent.com/13739735/162285513-df2da0bb-7edb-49fe-a0b5-fade9b3870b0.png)
 --- 
 
 #### 📄 4) Na seção de destaques:
@@ -146,7 +146,7 @@ Veja nossa sugestão:
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/162290660-bab4e698-0f26-426f-961c-7bfb275799c6.png)
 ---
 
 
