@@ -142,7 +142,7 @@ Veja nossa sugestão:
 
 #### 📄 4) Na seção de destaques:
 
-1. xxxx
+1. Uma lista de restaurantes mais destacados na plataforma
 
 Veja nossa sugestão:
 ---
@@ -152,10 +152,11 @@ Veja nossa sugestão:
 
 #### 📄 5) Na seção dos restaurantes:
 
-1. xxxx
+1. 
 
 Veja nossa sugestão:
 ---
+![image](https://user-images.githubusercontent.com/13739735/165840927-fb4ae8a0-7a24-47ab-87b9-129f9333c277.png)
 
 ---
 
@@ -165,7 +166,7 @@ Veja nossa sugestão:
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/165840984-759f03bd-b8a9-486b-be45-13abaefc9775.png)
 ---
 
 
@@ -175,5 +176,5 @@ Veja nossa sugestão:
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/165841065-3d072371-988c-4785-9cfa-6f7a2bafd64e.png)
 ---
