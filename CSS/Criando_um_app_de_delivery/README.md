@@ -181,3 +181,7 @@ Veja nossa sugestão:
 ---
 ![image](https://user-images.githubusercontent.com/13739735/165841065-3d072371-988c-4785-9cfa-6f7a2bafd64e.png)
 ---
+
+# Resultado final
+![screencapture-file-C-Users-Vinicius-Documents-Github-Vinnydsstos-Desafios-front-end-CSS-Criando-um-app-de-delivery-index-html-2022-04-29-09_36_51](https://user-images.githubusercontent.com/13739735/165945578-93b8c6a7-f50d-4b04-8d54-c6a3cb5f4d2e.png)
+
