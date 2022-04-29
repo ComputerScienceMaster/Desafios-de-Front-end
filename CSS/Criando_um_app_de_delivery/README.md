@@ -152,7 +152,8 @@ Veja nossa sugestão:
 
 #### 📄 5) Na seção dos restaurantes:
 
-1. 
+1. Icones dos restaurantes dispostos em formato de tabela 3x3
+2. Cada restaurante deve ter um ícone, nome do restaurantes, nota, categoria, distância, tempo de entrega estimado, e preço de entrega.
 
 Veja nossa sugestão:
 ---
@@ -162,7 +163,7 @@ Veja nossa sugestão:
 
 #### 📄 6) Informações no fim do site:
 
-1. xxxx
+1. Uma lista com o nome das cidades onde o MyFood Está presente em 4 colunas
 
 Veja nossa sugestão:
 ---
@@ -172,7 +173,9 @@ Veja nossa sugestão:
 
 #### 📄 7) Rodapé do site:
 
-1. xxxx
+1. Informações das redes sociais (icones)
+2. Links para os termos de uso, código de conduta, privacidade e dicas de segurança
+3. Mensagem de direitos autorais
 
 Veja nossa sugestão:
 ---
