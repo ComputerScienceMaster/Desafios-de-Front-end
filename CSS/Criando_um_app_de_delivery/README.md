@@ -142,7 +142,7 @@ Veja nossa sugestão:
 
 #### 📄 4) Na seção de destaques:
 
-1. xxxx
+1. Uma lista de restaurantes mais destacados na plataforma
 
 Veja nossa sugestão:
 ---
@@ -152,28 +152,36 @@ Veja nossa sugestão:
 
 #### 📄 5) Na seção dos restaurantes:
 
-1. xxxx
+1. Icones dos restaurantes dispostos em formato de tabela 3x3
+2. Cada restaurante deve ter um ícone, nome do restaurantes, nota, categoria, distância, tempo de entrega estimado, e preço de entrega.
 
 Veja nossa sugestão:
 ---
+![image](https://user-images.githubusercontent.com/13739735/165840927-fb4ae8a0-7a24-47ab-87b9-129f9333c277.png)
 
 ---
 
 #### 📄 6) Informações no fim do site:
 
-1. xxxx
+1. Uma lista com o nome das cidades onde o MyFood Está presente em 4 colunas
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/165840984-759f03bd-b8a9-486b-be45-13abaefc9775.png)
 ---
 
 
 #### 📄 7) Rodapé do site:
 
-1. xxxx
+1. Informações das redes sociais (icones)
+2. Links para os termos de uso, código de conduta, privacidade e dicas de segurança
+3. Mensagem de direitos autorais
 
 Veja nossa sugestão:
 ---
-
+![image](https://user-images.githubusercontent.com/13739735/165841065-3d072371-988c-4785-9cfa-6f7a2bafd64e.png)
 ---
+
+# Resultado final
+![screencapture-file-C-Users-Vinicius-Documents-Github-Vinnydsstos-Desafios-front-end-CSS-Criando-um-app-de-delivery-index-html-2022-04-29-09_36_51](https://user-images.githubusercontent.com/13739735/165945578-93b8c6a7-f50d-4b04-8d54-c6a3cb5f4d2e.png)
+
