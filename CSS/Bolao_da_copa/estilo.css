@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+/* reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Cabeçalho*/
+
+.main-menu {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 40px;
+  font-family: oswald;
+  padding: 20px;
+}
+
+.main-menu li, a{
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.trofeu{
+    width: 400px;
+}
+
+/* fundo */
+
+html {
+  /*
+    background-image: url("images/trofeu.png"); 
+    color: linear-gradient(to right,#940c32, #440017);*/
+  background-image: linear-gradient(to right, #940c32, #440017);
+}
+
+/* header */
+
+.header-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 150px;
+  text-align: center;
+  font-family: "Rubik Moonrocks";
+  color: rgb(255, 202, 69);
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 40px;
+  color: rgb(255, 202, 69);
+}
+
+/* grupos */
+div {
+  font-size: 18px;
+  text-align: left;
+}
+
+.grupo {
+  border: solid 2px black;
+  margin: 20px;
+  width: 230px;
+  height: 300px;
+  background-color: beige;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  color: black;
+}
+
+.grupos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: sans-serif;
+}
+
+.grupos-container a {
+  text-decoration: none;
+}
+
+.nomegrupo {
+  font-weight: bold;
+  text-align: center;
+  font-family: oswald;
+}
+
+.body-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.paisesgrupo {
+  display: flex;
+  margin: 10px;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+
+
+/* historia da copa */
+
+.historia-da-copa{
+    display: flex;
+    padding: 50px;
+    background-image: url('images/grass.jpg');
+}
+
+.breve-historico * {
+    
+    font-size: 15px;
+}
+
+.breve-historico{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+.breve-historico img{
+    height: 200px;
+}
+
+.breve-historico h3{
+    font-size: 25px;
+    color: rgb(255, 202, 69);
+}
+
+
+
+.primeira-copa, .brasil-campeao{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.primeira-copa p ,.brasil-campeao p{
+    
+    text-align: justify;
+}
+
+
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: top;
+  background-color: #111;
+  color: white;
+}
+
+.redes-sociais {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.privacy {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redes-sociais .title {
+  font-size: 30px;
+  font-family: oswald;
+  color: rgb(255, 202, 69);
+}
+
+.privacy .title {
+  font-size: 30px;
+  font-family: oswald;
+  color: rgb(255, 202, 69);
+}
+
+.logo {
+  width: 180px;
+}

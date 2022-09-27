@@ -1,0 +1,10 @@
+header 
+    - cabeçalho com o nome do site (Copão)
+
+1- Mostrar quais são os grupos sorteados (6 a 8 grupos com 4 times diferentes (A - H))
+    (quando eu clico no grupo...)
+    1.2- Aparece todos os jogos do grupos (com os resultados)
+
+rodapé
+    - todos os direitos reservados
+
